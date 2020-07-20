@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font-size:  14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+}
+
+header, section, footer, aside, nav, article{
+
+    display: block;
+     
+}
+
+body{
+    text-align: center;
+    background-color: grey;
+    /*Alinea la posición del texto*/
+}
+
+.group{
+    
+    background-color: #f7f1e3;
+    border: 1px solid black;
+    /*El background altera el color de fondo*/
+    width: 500px;
+    /*Ancho del elemento*/
+    margin: 15px auto;
+    /*Margen por fuera del elemento*/
+    padding: 30px;
+    /*Relleno por dentro del elemento*/
+}
+
+.header{
+    background-color: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+    color: #2d2d2d;
+
+}
+
+.header h1{
+    text-align: left;
+}
+
+
+
+.menu{
+    background: #f7f1e3;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+    
+}
+
+.section {
+    margin: 20px;
+    width: 70%;
+    float: left;
+}
+
+article{
+    background-color: #FFFBCC;
+    border: 1px solid #999;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+article h1{
+    text-align: left;
+}
+
+article h2{
+    text-align: left; 
+}
+
+time{
+    color: #999;
+}
+
+.column{
+    width: 20%;
+    float: left;
+    margin: 20px 0px;
+}
+
+.column blockquote{
+    border: 1px solid #999;
+    padding: 10%;
+    background-color: #FFFBCC;
+    margin-bottom: 5px;
+}
+
+.footer{
+    clear: both;
+    padding: 20px;
+    background-color:#3d3d3d;
+    color: whitesmoke;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+}

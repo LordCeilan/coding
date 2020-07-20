@@ -1,0 +1,18 @@
+  Public y As Integer
+  Public x As Double
+  
+
+Sub sumarNumeros()
+    
+    x = 21
+    Hoja1.Range("A1") = x
+    Hoja1.Range("A2") = x + y
+End Sub
+'Declaracion de variables
+Sub varDeclaration()
+
+    Dim sTexto As String
+    sTexto = "Una hpta prueba"
+    Debug.Print sTexto
+    
+End Sub
